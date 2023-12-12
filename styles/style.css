@@ -47,7 +47,7 @@
 }
 
 .nav__link:hover {
-  background-color: #1f69c9;
+  color: #1f69c9;
 }
 
 .header__title {
@@ -88,7 +88,7 @@
 }
 
 .header__link:hover {
-  background-color: #1f69c9;
+  color: #1f69c9;
 }
 
 .header__address {
@@ -168,7 +168,7 @@
 }
 
 .events__more:hover {
-  background-color: #1f69c9;
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -465,7 +465,7 @@
 }
 
 .footer__column-link:hover {
-  background-color: #1f69c9;
+  color: #1f69c9;
 }
 
 .footer__social-icon {
