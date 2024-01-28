@@ -27,8 +27,6 @@
 }
 
 .nav__logo {
-  height: 80px;
-  width: 57px;
 }
 
 .nav__links {
@@ -421,10 +419,18 @@
 
 .footer__column_content_hours {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .footer__column_content_social {
-  margin-left: 100px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .footer__logo {
@@ -449,10 +455,7 @@
 }
 
 .footer__column-heading {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin: auto;
+  margin: initial;
 }
 
 .footer__column-link {
@@ -463,6 +466,7 @@
   flex-direction: row-reverse;
   color: #fff;
   align-items: center;
+  column-gap: 20px;
 }
 
 .footer__column-link:hover {
