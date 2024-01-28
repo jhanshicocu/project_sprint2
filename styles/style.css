@@ -27,10 +27,15 @@
 }
 
 .nav__logo {
+  height: 80px;
+  width: 58px;
+  object-fit: none;
+  overflow: visible;
+  object-position: left;
 }
 
 .nav__links {
-  margin: 0px 0 0;
+  margin: 8px 0 0;
   display: flex;
   align-items: flex-start;
   column-gap: 20px;
